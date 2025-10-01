@@ -17,6 +17,10 @@ public class ifcetakpresensi23 {
             System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu.");
         }
 
+        String hasil = (uktlunas) ? "PEMBAYARAN UKT TELAH TERVERIFIKASI\nSYSTEM CETAK KRS MINTA TANDA TANGAN": "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu.";
+        System.out.println("\n[Versi Ternary Operator]");
+        System.out.println(hasil);
+
         sc.close();
     }
 }
